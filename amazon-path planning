@@ -1,0 +1,19 @@
+
+# AMAZON – Path Planning
+
+# Path costs
+path_A = 10
+path_B = 5
+path_C = 8
+
+# Find minimum cost path
+if path_B < path_A and path_B < path_C:
+    result = "Path B"
+elif path_A < path_C:
+    result = "Path A"
+else:
+    result = "Path C"
+
+# Output
+print("Output:", result)
+     
