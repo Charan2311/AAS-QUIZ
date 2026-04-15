@@ -1,0 +1,10 @@
+
+
+# TESLA – PID Control
+
+Kp = 0.72
+error = 2
+
+control = Kp * error
+
+print("Output: Control =", control)
