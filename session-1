@@ -1,0 +1,9 @@
+altitude = 5   # sample altitude value
+
+if altitude > 0:
+    robot_type = "Aerial Autonomous Robot"
+else:
+    robot_type = "Ground Robot"
+
+print("Output:", robot_type)
+print("Industry: NVIDIA Jetson Drone Systems")
