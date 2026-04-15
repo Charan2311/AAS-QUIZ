@@ -1,0 +1,8 @@
+	
+
+# NVIDIA – Line Detection
+
+line_position = "left"
+
+if line_position == "left":
+    print("Output: Turn Left")
