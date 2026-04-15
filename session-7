@@ -1,0 +1,19 @@
+# JP MORGAN (Optimization)
+
+import sympy as sp
+
+# Step 1: Define variable
+x = sp.symbols('x')
+
+# Step 2: Define function
+f = (x - 3)**2
+
+# Step 3: Compute derivative
+derivative = sp.diff(f, x)
+
+# Step 4: Find minima (solve derivative = 0)
+min_point = sp.solve(derivative, x)
+
+# Step 5: Output
+print("Output: x =", min_point[0])
+print("Industry: AI Ops Optimization")
