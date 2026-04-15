@@ -1,0 +1,8 @@
+
+
+# AMAZON – Patrolling
+
+patrol_active = True
+
+if patrol_active:
+    print("Output: Continuous Patrol")
