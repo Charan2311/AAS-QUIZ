@@ -1,0 +1,13 @@
+# NVIDIA – Visual SLAM
+
+# Previous pose (x, y)
+prev_pose = (2.0, 3.0)
+
+# Motion detected (dx, dy)
+motion = (0.4, 0.6)
+
+# Calculate new pose
+new_pose = (prev_pose[0] + motion[0], prev_pose[1] + motion[1])
+
+# Output
+print("Output:", new_pose)
