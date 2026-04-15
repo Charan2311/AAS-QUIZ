@@ -1,0 +1,10 @@
+	
+
+# MICROSOFT – Feedback Control
+
+setpoint = 10
+actual = 7
+
+error = setpoint - actual
+
+print("Output: Error =", error)
