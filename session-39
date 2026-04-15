@@ -1,0 +1,8 @@
+
+# NVIDIA – IMU Correction
+
+imu_drift_corrected = True
+
+if imu_drift_corrected:
+    print("Output: Stabilized")
+     
