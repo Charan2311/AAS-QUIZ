@@ -1,0 +1,8 @@
+	
+
+# GOOGLE – Wall Following
+
+distance_from_wall = 0.2   # meters
+
+if distance_from_wall < 0.5:
+    print("Output: Move Away")
