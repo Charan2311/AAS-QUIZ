@@ -1,0 +1,11 @@
+
+
+# SAUDI ARAMCO – Hybrid Energy
+
+battery_level = 30
+
+if battery_level < 40:
+    mode = "Charging Mode"
+
+print("Output:", mode)
+     
