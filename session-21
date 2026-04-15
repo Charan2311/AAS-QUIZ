@@ -1,0 +1,7 @@
+
+# NVIDIA – Reinforcement Learning
+
+Q = 4
+
+print("Output: Q =", Q)
+     
