@@ -1,0 +1,14 @@
+# TESLA – Edge Detection
+
+import math
+
+# Gradient values
+Gx = 5
+Gy = 12
+
+# Compute edge magnitude
+edge = math.sqrt(Gx**2 + Gy**2)
+
+# Output
+print("Output:", int(edge))
+print("Industry: Autonomous Driving")
