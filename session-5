@@ -1,0 +1,13 @@
+# SESSION 5 – MICROSOFT (AI Model Choice)
+dataset = "Iris"
+labeled_data = True
+
+
+if labeled_data:
+    model_type = "Classification Model"
+else:
+    model_type = "Unsupervised Model"
+
+
+print("Output:", model_type)
+print("Industry: Azure ML")
