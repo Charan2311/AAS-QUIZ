@@ -1,0 +1,8 @@
+	
+
+# GOOGLE – Teleoperation
+
+command = "left"
+
+if command == "left":
+    print("Output: Left Turn")
