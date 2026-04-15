@@ -1,0 +1,15 @@
+# SESSION 2 – AMAZON (Obstacle Detection)
+
+# Step 1: Read depth value (distance from sensor in meters)
+distance = float(input("Enter detected distance (in meters): "))
+
+# Step 2: Apply threshold condition
+if distance < 0.5:
+    velocity = 0
+    print("Output: Robot Halted")
+else:
+    velocity = 1
+    print("Output: Robot Moving")
+
+# Step 3: Industry reference
+print("Industry: Amazon Fulfillment Robots")
