@@ -1,0 +1,9 @@
+
+
+# TESLA – Obstacle Avoidance
+
+obstacle = True
+direction = "Right"
+
+if obstacle:
+    print("Output: Turn", direction)
