@@ -1,0 +1,8 @@
+	
+
+# SESSION 19 – GOOGLE (Belief Update)
+
+belief = 0.42
+
+print("Output:", belief)
+     
