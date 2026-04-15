@@ -1,0 +1,8 @@
+
+
+# WALMART – Logistics
+
+delivery_status = True
+
+if delivery_status:
+    print("Output: Delivered")
