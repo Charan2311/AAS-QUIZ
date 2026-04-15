@@ -1,0 +1,8 @@
+	
+
+# NVIDIA – C-Space (Configuration Space)
+
+collision = False
+
+if not collision:
+    print("Output: Collision-Free")
