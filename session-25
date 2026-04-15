@@ -1,0 +1,10 @@
+
+
+# GOOGLE – Potential Fields
+
+F_attractive = 5
+F_repulsive = 2
+
+force = F_attractive + F_repulsive
+
+print("Output: Force =", force)
