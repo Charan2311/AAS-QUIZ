@@ -1,0 +1,8 @@
+
+
+# APPLE – Localization
+
+localization_accuracy = True
+
+if localization_accuracy:
+    print("Output: Accurate Localization")
