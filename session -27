@@ -1,0 +1,13 @@
+	
+
+# AMAZON – Go-To-Goal
+
+import math
+
+x1, y1 = 0, 0
+x2, y2 = 6, 8
+
+distance = math.sqrt((x2-x1)**2 + (y2-y1)**2)
+
+print("Output: Distance =", int(distance), "m")
+     
