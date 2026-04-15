@@ -1,0 +1,12 @@
+# SESSION 4 – APPLE (Motor Control)
+
+# Step 1: Define distance and time
+distance = 5      # meters
+time = 2          # seconds
+
+# Step 2: Calculate speed
+speed = distance / time
+
+# Step 3: Output result
+print("Output:", speed, "m/s")
+print("Industry: Apple Robotics")
