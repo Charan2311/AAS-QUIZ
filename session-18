@@ -1,0 +1,10 @@
+	
+
+# IBM – Rule Agent
+
+rule_triggered = True
+
+if rule_triggered:
+    action = "Stop"
+
+print("Output:", action)
