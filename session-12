@@ -1,0 +1,11 @@
+# GOOGLE – Place Recognition
+
+# similarity score
+similarity = 0.95
+
+# check recognition
+if similarity > 0.9:
+    recognized = True
+    print("Output: Place Recognized")
+
+print("Industry: Google Maps")
