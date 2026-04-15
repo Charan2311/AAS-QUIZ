@@ -1,0 +1,6 @@
+
+# WALMART – Predictive Maintenance
+
+health = 56
+
+print("Output: Health =", health)
