@@ -1,0 +1,14 @@
+
+# META – Camera Projection
+
+# Step 1: Define values
+f = 600     # focal length
+X = 1       # object coordinate
+Z = 2       # depth
+
+# Step 2: Apply projection formula
+u = f * X / Z
+
+# Step 3: Output result
+print("Output:", u, "px")
+print("Industry: AR/VR Systems")
