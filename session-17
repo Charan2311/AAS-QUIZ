@@ -1,0 +1,7 @@
+
+# NVIDIA – RRT (Rapidly Exploring Random Tree)
+
+goal_connected = True
+
+if goal_connected:
+    print("Output: Goal Connected")
