@@ -1,0 +1,10 @@
+	
+
+# AMAZON – Kinematics
+
+left_wheel_speed = 10
+right_wheel_speed = 10
+
+if left_wheel_speed == right_wheel_speed:
+    print("Output: Straight Motion")
+     
