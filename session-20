@@ -1,0 +1,8 @@
+	
+
+# TESLA – Navigation
+
+goal_reached = True
+
+if goal_reached:
+    print("Output: Goal Reached")
