@@ -1,0 +1,15 @@
+# SESSION 3 – TESLA (Sensor Selection)
+
+# Step 1: Sensor range metadata (in meters)
+sensors = {
+    "Camera": 80,
+    "Radar": 200,
+    "LiDAR": 250
+}
+
+# Step 2: Select sensor with maximum range
+selected_sensor = max(sensors, key=sensors.get)
+
+# Step 3: Output result
+print("Output:", selected_sensor, "Selected")
+print("Industry: Tesla Autopilot")
