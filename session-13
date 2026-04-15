@@ -1,0 +1,13 @@
+# APPLE – Sensor Fusion
+
+# Sensor values (in degrees)
+imu = 20
+vision = 40
+
+# Fuse sensors
+fused = (imu + vision) / 2
+
+# Output
+print("Output:", int(fused), "°")
+print("Industry: iOS Robotics")
+     
