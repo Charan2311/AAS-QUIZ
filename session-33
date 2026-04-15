@@ -1,0 +1,8 @@
+	
+
+# AMAZON – Wander Bot
+
+direction_changed = True
+
+if direction_changed:
+    print("Output: Direction Updated")
