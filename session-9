@@ -1,0 +1,13 @@
+# NVIDIA – Image Processing
+
+# RGB values
+R = 200
+G = 150
+B = 100
+
+# Convert to grayscale
+gray = 0.3*R + 0.59*G + 0.11*B
+
+# Output
+print("Output:", int(gray))
+print("Industry: Vision AI")
